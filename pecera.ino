@@ -1,4 +1,42 @@
-/* Pines PWM usados.Cuidado al conectarlos -> 3 5 9 11 */
+/* NO ELIMINE ESTA NOTA / DO NOT REMOVE THIS HEADER
+
+Aviso de licencia de Copyright (C). 2013. Pablo Giménez Fandiño
+
+Castellano
+----------
+
+Lo más te interesa lo contaré en castellano. Este programa, como todos los que escribo, es software libre. Esto quiere decir que puedes usarlo para lo que quieras y modificarlo todo lo que quieras. Puedes venderlo, puedes regalarlo, puedes intentar ligar con él. Haz lo que quieras; Eres libre de CASI todo. 
+
+¿Qué no puedes hacer? a.k.a. ¿Qué infringe el Copyright?
+- No digas que es tuyo. Sé que está muy de moda, pero sería feo e ilegal.
+- Si lo modificas y lo distribuyes, esa modificación ha de seguir la licencia GPLv3. Esto es imprescincible para que el mundo siga siendo un mundo en el que merezca la pena estar y, sobre todo, para que no te denuncie.
+- Si decides modificarlo y/o ampliarlo, especifica cuál es el original -o, al menos, dónde encontrarlo- --> https://github.com/PabloGF/Aquarium 
+
+Si quieres contactar conmigo, no lo dudes: pablo.gim.fan@gmail.com <- lo más probable es que pase de ti. Recibo demasiados e-mails, pero puedes intentarlo.
+
+Si pretendes acostarte conmigo y estás buena, siento decepcionarte, pero mi novia es de Burela y te mataría.
+
+¿Acaso no es la licencia de Copyright más divertida que has leído?
+
+Pues en la traducción a inglés está lo serio:
+
+English
+-------
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+
+
+PLEASE, DO NOT REMOVE THIS HEADER */
+
+/* Este programa sirve para evaluar el funcionamiento de la electrónica. La duración del ciclo completo es de 1h */
+
+/* El programa que opera las tiras LED durante 24h se llama pecera24h.ino */
+
+/* Programa de simulación de amanecer/anochecer para Arduino o Arduino-Compatible */ 
+
+/* Pines PWM usados. Cuidado al conectarlos -> 3 5 9 11 */
  
 
 // nombres:
@@ -18,7 +56,7 @@ void setup() {
 
 void loop() {
 
-  // Amanecer (dura 1h)
+  // Amanecer (dura 1/24 h)
   
   analogWrite(ledA,4);   
   delay(12500);
@@ -66,7 +104,7 @@ void loop() {
                   // (milisegundos) (10h)
                    
 
-  // Anochecer (dura 1h)
+  // Anochecer (dura 1/24 h)
 
   analogWrite(ledA,191);
   delay(12500);
