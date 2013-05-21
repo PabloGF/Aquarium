@@ -5,7 +5,7 @@ Aviso de licencia de Copyright (C). 2013. Pablo Giménez Fandiño
 Castellano
 ----------
 
-Lo más te interesa lo contaré en castellano. Este programa, como todos los que escribo, es software libre. Esto quiere decir que puedes usarlo para lo que quieras y modificarlo todo lo que quieras. Puedes venderlo, puedes regalarlo, puedes intentar ligar con él. Haz lo que quieras; Eres libre de CASI todo. 
+Lo que más te interesa lo contaré en castellano. Este programa, como todos los que escribo, es software libre. Esto quiere decir que puedes usarlo para lo que quieras y modificarlo todo lo que quieras. Puedes venderlo, puedes regalarlo, puedes intentar ligar con él. Haz lo que quieras; Eres libre de CASI todo. 
 
 ¿Qué no puedes hacer? a.k.a. ¿Qué infringe el Copyright?
 - No digas que es tuyo. Sé que está muy de moda, pero sería feo e ilegal.
