@@ -39,12 +39,14 @@ PLEASE, DO NOT REMOVE THIS HEADER */
 
 
 
-/* Pines PWM usados.Cuidado al conectarlos -> 3 5 9 11 */
+/* Pines PWM usados. Cuidado al conectarlos -> 3 6 9 11 */
+
+//NOTA IMPORTANTE: En el esquema de la electrónica, 'LedPecera_bb.png' está conectado al 5, pero por cuestiones de montaje, en mi Arduino Micro elegí el 6. Esto es para que seas coherente a la hora de conectar los cables a tu Arduino. Si usas un Arduino -o Arduino compatible- diferente, fíjate en que todos los que uses sean pines PWM o no funcionará. ¡Y cambia los números de los pines por los tuyos! Cualquier mandril entiende esto, no?
  
 
 // nombres:
 int ledA = 3;
-int ledB = 6;
+int ledB = 6; 
 int ledC = 9;
 int ledD = 11;
 
