@@ -1,0 +1,35 @@
+Lista de la compra para amanecer/anochecer
+------------------
+
+Mi pecera es de 84L, para la que pondré medio metro de LEDs blancos (6000k) y medio metro de LEDs RGB(25cm emitiendo en rojo de 650nm y 25cm emitiendo en azul de 450nm)
+
+650nm son en RGB (255,0,0)
+450nm son en RGB (0,51,255)
+
+Versión standard
+----------------
+*)Breadboard o Protoboard (2.5€ ó 0.3€)
+http://dx.com/p/mini-prototype-printed-circuit-board-breadboard-white-140716
+
+*)Arduino (12-23€)
+Este es el mío
+http://www.cetronic.es/sqlcommerce/disenos/plantilla1/seccion/producto/DetalleProducto.jsp?idIdioma=&idTienda=93&codProducto=151185024&cPath=1156
+
+*)4 transistores TIP120 (4x0.24€)
+http://www.taydaelectronics.com/tip120-npn-power-darlington-transistor.html
+
+*)Tira de LEDs (Sobre 15€) 
+-Blancos (los míos fueron una donación, no son exactamente estos). Los míos son de 60LEDs/metro. El resto, igual
+http://www.robotecno.com/catalog/product_info.php?cPath=91_94&products_id=556
+
+-De colores, por si tienes un acuario tropical
+http://www.taydaelectronics.com/1m-5050-60-led-rgb-flexible-waterproof-light-strip.html
+
+*)Cargador de móvil Android (5V) (2.5€)
+http://dx.com/p/ac-charger-usb-to-micro-usb-data-charging-flat-cable-for-samsung-htc-more-black-eu-plug-185711
+
+*)Cargador de 2A o + y 12V (sobre 15€)(Seguro que tienes alguno por casa de algún disco duro o algún aparato que ya no funcione)
+http://www.microcubo.com/productos/1018-fuente-de-alimentacion-12v-3a.html
+ 
+*)Cables de protoboard (1€) 
+De venta en cualquier tienda de electrónica
